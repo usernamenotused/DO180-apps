@@ -5,7 +5,7 @@
 <?php
 print "Hello, World! php version is " . PHP_VERSION . "\n";
 $s=explode("this is amazing"," ");
-foreach($w in $s){
+foreach($s as $w){
 print "$w</br>";
 }
 ?>
